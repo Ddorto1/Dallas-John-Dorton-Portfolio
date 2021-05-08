@@ -29,7 +29,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul li {
+.header div nav ul li {
     list-style-type: none;
     display:inline-block;
     padding: 20px;
@@ -55,7 +55,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: white;
-    margin: auto auto auto auto;
+    margin: 40px auto 50px auto;
     padding: 10px;
     border-bottom: 3px solid;
     text-align:center;
@@ -75,15 +75,64 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: white;
-    margin: auto auto auto auto;
+    margin: auto auto 50px auto;
     padding: 10px;
     border-bottom: 3px solid;
     text-align:center;
     width:40%;
 }
-.My-Work ul{
+.Run-Buddy {
+    width: 90%;
+    padding:25px;
+    background-image: url(./images/Run\ Buddy.png);
+    width: 90%;
+    padding: 40px 50px 20px 50px;
+    display: block;
+    text-align: center;
+    height: 200px;
+    background-size:1250px;
+    margin-left: 40px;
+}
+.Robot-Gladiators {
+    background-image: url(./images/gladiator-14677331821L1.jpeg);
     display: inline-block;
-    font-size: 25px;
+    background-size: 300px;
+    padding: 20px 50px 20px 50px;
+    height: 200px;
+    margin: 20px 0px 20px 0px;
+    width: 47%;
+    background-size: 650px;
+
+}
+.Placeholder {
+    background-image: url(./images/golf1.jpeg);
+    display: inline-block;
+    background-size: 300px;
+    padding: 20px 50px 20px 50px;
+    height: 200px;
+    margin: 20px 10px 20px 10px;
+    width: 47%;
+    background-size: 650px;
+}
+.Placeholder2 {
+    background-image: url(./images/golf\ 2.jpeg);
+    display: inline-block;
+    background-size: 300px;
+    padding: 20px 50px 40px 50px;
+    height: 200px;
+    margin: 20px 0px 40px 0px;
+    width: 47%;
+    background-size: 650px;
+}
+.Placeholder3 {
+    background-image: url(./images/Golf\ 3.jpeg);
+    display: inline-block;
+    background-size: 300px;
+    padding: 20px 50px 40px 50px;
+    height: 200px;
+    margin: 0px 10px 40px 10px;
+    width: 47%;
+    background-size: 650px;
 }
 .Contact-Me {
     background-color: teal;
@@ -93,24 +142,32 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: white;
-    margin: auto auto auto auto;
+    margin: auto auto 40px auto;
     padding: 10px;
     border-bottom: 3px solid;
     text-align:center;
     width:40%;
 }
-.My-Work ul li {
-    background-image: url("./images/Run\ Buddy.png")
-    ;
+.Contact-Me address {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 80px;
 }
-
 .Resume h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: white;
-    margin: auto auto auto auto;
+    margin: auto auto 40px auto;
     padding: 10px;
     border-bottom: 3px solid;
     text-align:center;
     width:40%;
+}
+.Resume {
+    text-align: center;
+    font-size: 40px;
+    padding: 25px auto 25px auto;
+    margin-top: 50px;
+    
 }
