@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    width: 35%;
+}
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    list-style-type: none;
+    display:inline-block;
+    color:linen;
+    padding: 20px;
+    margin-left: 25px auto 25px auto;
+}
+/* .header div ul {
+    display: inline-block;
+    margin-left: 25px;
+    color:linen;
+} */
+.hero{
+    width: 100%;
+    background-image: url("./images/bandon-dunes-hole-17-mike-centioli.jpeg");
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 25px;
+}
