@@ -32,15 +32,12 @@ body {
 .header div ul li {
     list-style-type: none;
     display:inline-block;
-    color:linen;
     padding: 20px;
     margin-left: 25px auto 25px auto;
+    color: white;
 }
-/* .header div ul {
-    display: inline-block;
-    margin-left: 25px;
-    color:linen;
-} */
+/*Hero Section*/
+
 .hero{
     width: 100%;
     background-image: url("./images/bandon-dunes-hole-17-mike-centioli.jpeg");
@@ -48,4 +45,72 @@ body {
     background-position: center;
     height: 400px;
     margin-bottom: 25px;
+}
+.About-Me {
+    background-color: teal;
+    padding:25px;
+}
+
+.About-Me h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    margin: auto auto auto auto;
+    padding: 10px;
+    border-bottom: 3px solid;
+    text-align:center;
+    width:40%;
+} 
+p{
+    font-size: 25px;
+    margin: 25px 100px 25px 100px;
+    color: white;
+    
+}
+.My-Work {
+    background-color: teal;
+    padding:25px;
+}
+.My-Work h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    margin: auto auto auto auto;
+    padding: 10px;
+    border-bottom: 3px solid;
+    text-align:center;
+    width:40%;
+}
+.My-Work ul{
+    display: inline-block;
+    font-size: 25px;
+}
+.Contact-Me {
+    background-color: teal;
+    padding:25px;
+}
+.Contact-Me h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    margin: auto auto auto auto;
+    padding: 10px;
+    border-bottom: 3px solid;
+    text-align:center;
+    width:40%;
+}
+.My-Work ul li {
+    background-image: url("./images/Run\ Buddy.png")
+    ;
+}
+
+.Resume h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    margin: auto auto auto auto;
+    padding: 10px;
+    border-bottom: 3px solid;
+    text-align:center;
+    width:40%;
 }
