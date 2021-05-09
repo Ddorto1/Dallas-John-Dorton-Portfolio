@@ -10,7 +10,7 @@ Professional Portfolio which showcases my projects and challenges
 * CSS
 
 ## Website
-https://ddorto1.github.io/Portfolio/
+ https://ddorto1.github.io/Dallas-John-Dorton-Portfolio/
 
 ## Contribution
 Made by Dallas Dorton
