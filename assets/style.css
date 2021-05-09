@@ -6,20 +6,24 @@
 }
 
 body {
-    background-color: lightsalmon;
+    background-color: rgb(104, 129, 151);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: rgb(104, 129, 151);
     color: #ffffff;
 }
 
 .header h1 {
-    display: inline-block;
     font-size: 48px;
     width: 35%;
+    
+}
+.header img {
+    margin-left: 75px ;
+    height:75%;
 }
 .header div {
     padding-top: 15px;
@@ -65,7 +69,7 @@ p{
     font-size: 25px;
     margin: 25px 100px 25px 100px;
     color: white;
-    
+    text-align: center;
 }
 .My-Work {
     background-color: teal;
@@ -171,3 +175,19 @@ p{
     margin-top: 50px;
     
 }
+@media screen and (min-device-width: 300px) and (max-device-width: 500px)
+ {p {
+     font-size: 10px;
+ }
+ .Robot-Gladiators{
+     width:90%;
+ }
+ .Placeholder{
+     width:90%;
+ }
+ .Placeholder2{
+     width:90%;
+ }
+ .Placeholder3{
+     width:90%;
+ }}
